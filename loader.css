@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 400px;
+    border: 2px solid grey;
+  /*   margin: 100px auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    color: rgba(2, 9, 24, 0.63);
+
+}
+
+input {
+    border: 1px solid rgb(20, 20, 148);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    background: rgb(39, 39, 146);
+    border: none;
+    color: rgba(255, 255, 255, 0.719);
+    padding: 5px;
+    border-radius: 5px;
+}
+img {
+    border-radius: 5px;
+}
