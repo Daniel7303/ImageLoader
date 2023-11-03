@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    width: 400px;
+    min-width: 400px;
     border: 2px solid grey;
   /*   margin: 100px auto; */
     display: flex;
